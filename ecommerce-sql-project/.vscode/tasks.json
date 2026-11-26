@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run ALL SQL queries",
+      "type": "shell",
+      "command": "python run.py",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Window Functions only",
+      "type": "shell",
+      "command": "python run.py 06",
+      "problemMatcher": []
+    }
+  ]
+}
